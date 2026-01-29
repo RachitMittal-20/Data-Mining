@@ -65,6 +65,7 @@ Understanding the fundamental building blocks of data:
 - **Attribute Types**
   - **Nominal (N)**: Categorical names/categories with distinctness property (=, ≠)
     - Example: Eye Color
+  - *Note: Other attribute types (Ordinal, Interval, Ratio) are also part of data mining but are covered in more detail elsewhere in the course*
 
 ### 5. **Visual Analytics - Data Visualization**
 Transforming raw data into visual representations for pattern discovery:
@@ -81,7 +82,8 @@ Transforming raw data into visual representations for pattern discovery:
 - **Histograms**: Display frequency distribution of values
   - Best for: Data distribution, skewness detection, range analysis
 
-- **Box Plots**: Statistical data representation
+- **Box Plots**: Show statistical summary of data
+  - Best for: Displaying median, quartiles, and outliers; comparing distributions
 
 ### 6. **Data Preparation - Cleaning, Integration & Transformation**
 Essential steps to transform raw data into a usable format:
@@ -108,8 +110,8 @@ Converting continuous numeric data into discrete intervals:
   - Handles noise and outliers effectively
 
 - **Techniques**
-  - Equal-Width Binning
-  - Equal-Frequency Binning
+  - **Equal-Width Binning**: Divide the range into N intervals of equal size
+  - **Equal-Frequency Binning**: Divide data into N bins with approximately equal number of items
 
 ### 8. **Data Optimization - Data Reduction Techniques**
 Obtaining reduced data representations while minimizing information loss:
@@ -120,7 +122,8 @@ Obtaining reduced data representations while minimizing information loss:
   - Decision Tree: Use tree induction to identify relevant attributes
 
 - **Dimensionality Reduction**
-  - Feature selection techniques
+  - Feature selection and transformation techniques to reduce the number of variables
+  - Methods include: PCA (Principal Component Analysis), feature extraction
 
 - **Numerosity Reduction**
   - Histograms: Store average/sum for data buckets
